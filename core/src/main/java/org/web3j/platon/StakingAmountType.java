@@ -5,7 +5,7 @@ import java.util.Map;
 
 public enum StakingAmountType {
 
-    FREE_AMOUNT_TYPE(0), RESTRICTING_AMOUNT_TYPE(1);
+    FREE_AMOUNT_TYPE(0), RESTRICTING_AMOUNT_TYPE(1), DELEGATE_LOCK_AMOUNT_TYPE(3);
 
     int value;
 
